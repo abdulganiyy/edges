@@ -1,0 +1,7 @@
+.single-tweet {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  background-color: #ccc;
+  padding: 1rem;
+}

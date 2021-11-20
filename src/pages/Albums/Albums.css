@@ -1,0 +1,36 @@
+.albums {
+  min-height: 100vh;
+  background-color: #f4fce3;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.album {
+  background-color: #c0eb75;
+  padding: 1rem;
+}
+
+.album:hover {
+  box-shadow: 0.2rem 0.7rem 1.5rem #ccc;
+}
+
+.album a:first-child {
+  text-decoration: none;
+  color: inherit;
+}
+
+.album a:nth-child(2) {
+  display: inline-block;
+  margin-top: 1rem;
+  border-bottom: 2px solid green;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 900px) {
+  .albums {
+    grid-template-columns: 1fr;
+  }
+}

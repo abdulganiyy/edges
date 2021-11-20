@@ -1,0 +1,36 @@
+.tweets {
+  padding: 1rem;
+  background-color: #ebfbee;
+}
+
+.tweet {
+  position: relative;
+  background-color: #40c057;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tweet a,
+.tweet a:active,
+.tweet a:link,
+.tweet a:visited {
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  color: inherit;
+}
+
+.edit-tweet {
+  padding: 0.3rem !important;
+  background-color: #ccc;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  color: #f03e3e;
+  font-size: 2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.menubar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #b197fc;
+}
+
+.menubar a,
+.menubar a:active,
+.menubar a:link,
+.menubar a:focus {
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+}
+
+.activeLink {
+  border-bottom: 2px solid purple;
+}

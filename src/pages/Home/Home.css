@@ -1,0 +1,41 @@
+.home {
+  min-height: 100vh;
+  background-color: #f4fce3;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.user {
+  background-color: #c0eb75;
+  padding: 1rem;
+}
+
+.user:last-child {
+  margin-bottom: 1rem;
+}
+
+.user:hover {
+  box-shadow: 0.2rem 0.7rem 1.5rem #ccc;
+}
+
+.user a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.user div {
+  margin-bottom: 0.5rem;
+}
+
+.user a {
+  display: inline-block;
+  border-bottom: 2px solid green;
+}
+
+@media (max-width: 900px) {
+  .home {
+    grid-template-columns: 1fr;
+  }
+}
